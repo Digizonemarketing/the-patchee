@@ -1,0 +1,42 @@
+# Laravel common ignores
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+Homestead.yaml
+Homestead.json
+/.vscode
+/.idea
+
+# Laravel log files
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# npm / yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / editor folders
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Composer
+composer.lock
+
+# Laravel Mix / Vite
+/public/build
+/node_modules
+
+# Other temp files
+*.tmp
+*.swp
