@@ -8,6 +8,13 @@ Homestead.yaml
 Homestead.json
 /.vscode
 /.idea
+/.env.testing
+/.env.local
+/.env.production
+/.phpunit.result.cache
+/.phpunit.cache
+/.access.log
+/.access
 
 # Laravel log files
 /storage/logs/*.log
